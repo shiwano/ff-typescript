@@ -1,4 +1,4 @@
-# ff-typescript
+# ff-typescript [![Downloads](http://img.shields.io/npm/dm/ff-typescript.svg)](https://npmjs.org/package/ff-typescript)
 
 Full-Frontal TypeScript that is exposed the internal APIs.
 
@@ -9,13 +9,13 @@ Install the module with:
 npm install --save ff-typescript
 ```
 
-## TypeScript Version
-1.6.2
-
-### Build
+## Build
 ```bash
 npm start
 ```
+
+## TypeScript Version
+1.6.2
 
 ## Release History
  * 2015-10-31   v1.6.2       TypeScript v1.6.2.
