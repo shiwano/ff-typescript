@@ -24,7 +24,7 @@
     "url": "git://github.com/shiwano/ff-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/shiwano/typhen/issues"
+    "url": "https://github.com/shiwano/ff-typescript/issues"
   },
   "engines": {
     "node": ">= 0.10.0",
