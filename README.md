@@ -15,10 +15,7 @@ npm start
 ```
 
 ## TypeScript Version
-1.6.2
-
-## Release History
- * 2015-10-31   v1.6.2       TypeScript v1.6.2.
+1.7.3
 
 ## License
 Copyright (c) 2015 Shogo Iwano
