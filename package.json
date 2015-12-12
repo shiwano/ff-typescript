@@ -1,6 +1,6 @@
 {
   "name": "ff-typescript",
-  "version": "1.6.2",
+  "version": "1.7.3",
   "description": "Full-Frontal TypeScript that is exposed the internal APIs.",
   "main": "./lib/typescript.js",
   "bin": {
