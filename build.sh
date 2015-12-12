@@ -1,6 +1,11 @@
 #!/bin/sh
 set -e
 
+if [ $# -ne 1 ]; then
+  echo "No git branch or tag name found" 1>&2
+  exit 1
+fi
+
 git submodule update --recursive --init
 
 # Official Microsoft/TypeScript clone
@@ -8,7 +13,7 @@ cd ./TypeScript
 
 git clean -xfd
 git fetch origin
-git reset --hard origin/master
+git reset --hard $1
 
 # Fix jakefile to expose the internal APIs to service
 < Jakefile.js > Jakefile.new.js sed -E "s/\*stripInternal\*\/ true/\*stripInternal\*\/ false/"
