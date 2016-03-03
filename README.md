@@ -15,7 +15,7 @@ npm start
 ```
 
 ## TypeScript Version
-1.7.3
+1.8.5
 
 ## License
 Copyright (c) 2015 Shogo Iwano
